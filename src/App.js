@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { MUIRadioButton } from "./components/MUIRadioButton";
+// import MUISelect from "./components/MUISelect";
+// import MUIButtonGroup from "./components/MUIButtonGroup";
+// import Buttons from "./components/Buttons";
+// import MUITextField from "./components/MUITextField";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Buttons /> */}
+      {/* <MUIButtonGroup /> */}
+      {/* <MUITextField /> */}
+      {/* <MUISelect /> */}
+      <MUIRadioButton />
     </div>
   );
 }
